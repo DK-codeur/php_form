@@ -1,0 +1,89 @@
+/*general*/
+*
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+body
+    {
+        margin: 70px 0px !important;
+        background: #0069d6 !important;
+    }
+
+/*Heading*/
+.heading .divider
+    {
+        width: 100px;
+        height: 2px;
+        background-color: #ffa500;  
+        margin: 0px auto;
+    }
+
+.heading h2
+    {
+        text-align: center;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+/*formulaire*/
+#contact-form
+    {
+        background-color: #fff !important;
+        font-size: 15px;
+        padding: 30px;
+        border-radius: 10px;
+        margin: 2% 8%;
+    }
+
+.etoile
+    {
+        color: #0069d6;
+    }
+
+.form-control
+    {
+        height: 50px;
+        font-size: 18px;
+    }
+
+.comment
+    {
+        font-style: italic;
+        font-size: 18px;
+        color: #ff2d2d;
+        height: 25px;
+    }
+
+#contact-form input[type=submit]
+    {
+        display: inline-block;
+        margin: 20px auto;
+    }
+
+.button-submit
+    {
+        border: 1px #ddd solid;
+        background: #ffa500;
+        color: #fff;
+        width: 100%;
+        font-weight: bold;
+        padding: 10px;
+        margin: 0px 0px;
+        border-radius: 5px;
+        transition: all 0.3s ease-in 0s;
+    }
+
+.button-submit:hover
+    {
+        background: #333;
+        border-color: #ffa500;
+    }
+
+.success-info
+    {
+        text-align: center;
+        margin-top: 15px;
+        font-weight: bold;
+    }
